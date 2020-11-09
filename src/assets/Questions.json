@@ -1,0 +1,137 @@
+{
+    "Questions": [
+    {
+		
+                "question": "What does SQL stand for?",
+                "options": [
+                    "Standard Programming Language",
+                    "Structured Query Language",
+                    "Strong Question Language",
+                    "Structured Question Language"
+                ],
+                "answer": "Structured Query Language"
+            },
+            
+            {
+		
+              "question": "Which SQL statement is used to extract data from a database?",
+              "options": [
+                    "GET",
+                    "SELECT",
+                    "OPEN",
+                    "EXTRACT"
+                
+                ],
+                "answer": "SELECT"
+            },
+            
+            {
+		
+              "question": "Which SQL statement is used to update data in a database?",
+              "options": [
+                    "MODIFY",
+                    "SAVE AS",
+                    "SAVE",
+                    "UPDATE"
+                
+                ],
+                "answer": "UPDATE"
+            },
+            
+            {
+		
+              "question": "Which SQL statement is used to delete data from a database?",
+              "options": [
+                    "DELETE",
+                    "COLLAPSE",
+                    "REMOVE",
+                    "TRUNCATE"
+                
+                ],
+                "answer": "DELETE"
+            },
+            
+            {
+              "question": "Which SQL statement is used to insert new data in a database",
+              "options": [
+                    "ADD RECORD",
+                    "INSERT INTO",
+                    "ADD NEW",
+                    "INSERT NEW"
+                
+                ],
+                "answer": "INSERT INTO"
+            },
+            
+            {
+		
+              "question": "With SQL, how do you select a column named 'FirstName' from a table named 'Persons'",
+              "options": [
+                    "EXTRACT FirstName FROM Persons",
+                    "SELECT FirstName FROM Persons",
+                    "SELECT Persons.FirstName",
+                    "NONE OF THE ABOVE"
+                
+                ],
+                "answer": "SELECT FirstName FROM Persons"
+            },
+            
+            
+             {
+		
+              "question": "With SQL, how do you select all the columns from a table named 'Persons'",
+              "options": [
+                    "SELECT *.Persons",
+                    "SELECT Persons",
+                    "SELECT [all] FROM Persons",
+                    "SELECT * FROM Persons"
+                
+                ],
+                "answer": "SELECT * FROM Persons"
+            },
+            
+            {
+		
+              "question": "With SQL, how do you select all the records from a table named 'Persons' where the value of the column 'FirstName' is 'Peter'",
+              "options": [
+                    "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+                    "SELECT * FROM Persons WHERE FirstName='Peter'",
+                    "SELECT [all] FROM Persons WHERE FirstName='Peter'",
+                    "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'"
+                
+                ],
+                "answer": "SELECT * FROM Persons WHERE FirstName='Peter'"
+            },
+            
+            {
+		
+              "question": "With SQL, how do you select all the records from a table named 'Persons' where the value of the column 'FirstName' starts with an 'a'",
+              "options": [
+                    "SELECT * FROM Persons WHERE FirstName='a'",
+                    "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+                    "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+                    "SELECT * FROM Persons WHERE FirstName='%a%'"
+                
+                ],
+                "answer": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'"
+            },
+            
+            {
+		
+              "question": "With SQL, how do you select all the records from a table named 'Persons' where the 'FirstName' is 'Peter' and the 'LastName' is 'Jackson'?",
+              "options": [
+                    "SELECT FirstName='Peter', LastName='Jackson' FROM Persons",
+                    "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+                    "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+                    "NONE OF THE ABOVE"
+                
+                ],
+                "answer": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'"
+            }
+            
+            
+        
+        
+    
+    ]
+}
